@@ -1,0 +1,32 @@
+// Dizer o com quantos anos sua mãe tinha quando você nasceu//
+#include <stdio.h>
+
+main()
+{
+ int Sua_idade, ano, idade_Mae;
+  char nome[30];
+  char nome2[30];
+  
+  printf("Digite Seu nome: ");
+  fflush(stdin);
+  gets(nome);
+  
+  printf("\nDigite o nome da sua mãe: ");
+  
+  fflush(stdin);
+  gets(nome2);
+  
+  printf("\nQuantos anos você tem?: ");
+  scanf("%d", &Sua_idade);
+  
+  printf("\nQuantos anos sua mãe tem?: ");
+  scanf("%d", &idade_Mae);
+  
+//subtração da idade da sua mãe - a sua idade//
+  ano = idade_Mae - Sua_idade;
+  
+  printf("\n\n%s, Quando você nasceu, Dona %s Tinha %d Anos", nome, nome2, ano);
+  
+  return 0;
+
+}
