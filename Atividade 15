@@ -1,0 +1,25 @@
+//Descobrir se a variavel A e B é divisivel//
+#include <stdio.h>
+
+int main(void) {
+ int A, B, Resto;
+
+printf("\nDigite o valor de A: ");
+scanf("%d", &A);
+
+printf("\nDigite o valor de B: ");
+scanf("%d", &B);
+
+(Resto = A % B);
+
+if (Resto == 0)
+  printf("\nÉ divisivel ");
+
+else {
+
+  printf("\nNão é divisivel");
+
+  
+}
+  return 0;
+}
