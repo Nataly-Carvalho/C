@@ -1,0 +1,25 @@
+#include <stdio.h>
+//quilometragem inicial,quilometragem fim, litros consumidos, preço do litro decombustível//
+int main(void)
+{
+  float QI, QF, LC, PLC, DP, VT, CC;
+//QI = Quilometragem inicial, QF = Quilometragem final, LC = Litrosconsumidos, 
+PLC = preço do litro de combustivel, DP = Distancia percorrida, VT = Valor tota, CC = Consumo do carro.//
+
+QI = 3000;
+QF = 2000;
+LC = 13;
+PLC = 3.70;
+
+DP = QI + QF;
+printf("\n\nDistancia percorrida = %.1f km" ,DP);
+  
+VT = (DP/13);
+CC = (VT/PLC);
+
+printf("\n\nValor total gasto = R$ %.2f ", CC);  
+
+printf("\n\nConsumo do carro foi de: %.2f ML por KM", VT);
+  
+  return 0;
+}
