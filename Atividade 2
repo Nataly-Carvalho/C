@@ -1,0 +1,15 @@
+#include <stdio.h>
+//Ler Nome de usuário e escrever saudação//
+main() 
+{
+  char nome [20];
+  
+printf("Digite seu nome: ");
+  
+scanf("%s",nome);
+  
+printf("\aOlá %s ", nome);
+printf("Tenha um Otimo dia de trabalho!");
+  
+  return 0;
+}
