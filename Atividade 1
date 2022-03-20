@@ -1,0 +1,13 @@
+//Criando Variáveis A e B//
+#include<stdio.h>
+float A, B;
+main()
+{
+  A = 29.34;
+  B = 20.987;
+  
+  printf("Valor de A = %.2f\n", A);
+  
+  printf("Valor de B = %.3f\n", B);
+  return 0;
+}
