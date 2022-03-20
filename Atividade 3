@@ -1,0 +1,15 @@
+//subtração de A e B//
+#include <stdio.h>
+
+main() 
+{
+int A, B, X; 
+A = 6;
+B = 2;
+X = 0;
+//O resultado tem que aparecer 6-2=4//
+X = A - B;
+printf("\n\nSubtração A e B");
+printf("\n%d - %d = %d", A, B, X);
+  return 0;
+}
