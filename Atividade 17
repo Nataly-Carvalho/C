@@ -1,0 +1,20 @@
+//Calcular o cubo de qualquer numero//
+#include <stdio.h>
+#include <math.h>
+int main() {
+
+int Cubo,num;
+  
+printf("Calcular o cubo de um número");
+  
+printf(" \n\nDigite um número: ");
+  
+scanf("%d", &num);
+  
+Cubo = num * num * num;
+printf("\nO seu resultado de: %d = %d", num, Cubo);
+
+
+
+  return 0;
+}
