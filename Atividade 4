@@ -1,0 +1,25 @@
+//Ler Nome do usuario e dizer sua idade em 2020//
+#include <stdio.h>
+main() 
+{
+  int idade, ano, data;
+  char nome[30];
+  
+  printf("Digite Seu nome: ");
+  fflush(stdin);
+  
+  gets(nome);
+  printf("\nQuantos anos você tem?: ");
+  scanf("%d", &idade);
+  
+  printf("\nEm que ano você nasceu?:");
+  scanf("%d", &data);
+  
+  //Subtração de 2020 - o ano que ela nasceu//
+  ano = 2020 - data;
+  
+  printf("\n\n%s, em 2020 voce tinha %d anos", nome, ano);
+    
+  
+  return 0;
+}
