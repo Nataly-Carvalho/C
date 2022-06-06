@@ -2,40 +2,32 @@
   Escola: ETE Ginasio Pernamvbucano
    Turma: Modulo 1 A*/
    
-/*Q.Declarar verdadeiro ou falso*/
+/*Q.Faça um programa que leia um número inteiro e mostre uma 
+mensagem indicando se este número é par ou ímpar, e se é 
+positivo ou negativo.*/
 
 #include <stdio.h>
+#include <math.h>
+int main(void) {
+int num;
 
-main() {
-int A, B, C, D, E;
+printf("\n\nDigite um número:");
+scanf("%d", &num);
 
-  A = 10;
-  B = 3;
-  C = 2;
-  D = 2;
-  E = 25;
-  
-(A == D);
-printf("\n(A == D),É Falso");
-
-((A>B) && (C==D));
-printf("\n(A>B) && (C==D), É Verdadeiro");
-
-(E+2<B+C) && (A==10);
-printf("\n(E+2<B+C) && (A==10), É Faso ");
-  
-(D*E>100) || (B<5);
- printf("\n(D*E>100) || (B<5), É Verdadeiro");
-   
-((E==25) && (A >B+C+D) && (C<B));
-  printf("\n(E==25) && (A >B+C+D) && (C<B), É Verdadeiro ");
-    
-!(A < 15) && (B>=3);
-printf("\n!(A < 15) && (B>=3), É Falso");
-  
-((D>2) || (C == 7) && (E > 20));
-printf("\n(D>2) || (C == 7) && (E > 20) È Verdadeiro");
-  
-  
-  return 0;
+if (num = num % 2 == 0)
+  {
+printf("\nSeu numero é par");
+    }
+ else
+{
+ printf("\nEsse número é impar");
+}
+if(num>0)
+{
+printf("\nSeu número é positivo");
   }
+else {
+printf("\nSeu número é negativo");
+}
+  return 0;
+}
