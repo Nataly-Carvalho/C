@@ -1,3 +1,12 @@
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.Faça um programa que leia um número qualquer e imprima o 
+seu cubo*/
+
+
+
 //Calcular o cubo de qualquer numero//
 #include <stdio.h>
 #include <math.h>
