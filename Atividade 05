@@ -1,4 +1,16 @@
-// Dizer o com quantos anos sua mãe tinha quando você nasceu//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+   
+Q.Faça um programa que leia o nome do usuário, a idade do 
+usuário, o nome da mãe do usuário e a idade da mãe do 
+usuário. O programa deverá imprimir na tela quantos anos a 
+mãe do usuário tinha quando ele nasceu. A resposta deve ter 
+o formato deste exemplo: “Carlos, quando voce nasceu, Dona 
+Cecilia tinha 27 anos”.
+
+
 #include <stdio.h>
 
 main()
