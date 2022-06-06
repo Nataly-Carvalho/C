@@ -1,42 +1,51 @@
-// Calcular taxa e valor pago em uma estadia de hotel//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.Um hotel cobra R$ 50,00 reais a diária e mais uma taxa de 
+serviços. A taxa de serviços é de:
+» 15,30 por dia, se número de diárias <15
+» 10,00 por dia, se número de diárias =15
+» 8,50 por dia, se número de diárias >15
+Faça um programa que lê a quantidade de dias que o hóspede 
+ficou no hotel e imprime a taxa e total a pagar.*/
+
 
 #include "stdio.h"
 #include <math.h>
+#include <string.h>
 
 int main(void)
 {
-int TDiarias;
-float TaxaA, TaxaB, TaxaC, diarias = 50.00, Total;
+int TDia, Taxacao;
+float TaxaA, TaxaB, TaxaC, Taxa, diarias = 50.00, Total;
 char nome[30];
-TaxaA = 10.00 ;
-TaxaB = 15.30;
-TaxaC = 8.50;
-
+  
 
 printf("\nDigite seu nome: ");
+fflush(stdin);
+gets(nome);
   
-scanf("%s", &nome);
+printf("\n\nDigite quantos dias você vai ficar no hotel: ");
+scanf("%d",&TDia);
   
-printf("\nDigite quantos dias você vai ficar no hotel: ");
-scanf("%d",&TDiarias);
- Total =TDiarias * diarias;
+  switch (Taxacao)
+    {
+      case 1:
+        if (TDia<15)
+        { printf("\n\nSua taxa é de: %.2f", Taxa= 15.30);}
+      
+      case 2:
+        if (TDia == 15)
+         { printf("\n\nSua taxa é de: %.2f", Taxa= 10.00);}
+      case 3:
+        if (TDia >15)
+        { printf("\n\nSua taxa é de: %.2f", Taxa=8.50);}
+      }
   
-if (TDiarias<15)
-{ printf("sua taxa é de:\n %.2f", TaxaB);}
+Total = (diarias * TDia);
   
-
-if (TDiarias == 15)
-
-{ printf("sua taxa é de:\n %.2f", TaxaA);}
-  
-  
-if (TDiarias >15)
-
-{ printf("sua taxa é de:\n %.2f", TaxaC);}
-
-Total = diarias * TDiarias;
-  
-printf("\nVocê ficou no hotel %d  Dias, \nO total da sua estadia ficou: %.2f Reais", TDiarias, Total);
+printf("\nVocê ficou no hotel %d  Dias,\n\nO total da sua estadia ficou: %.2f Reais", TDia, Total= Total+(Taxa*TDia));
   
 
 return 0;
