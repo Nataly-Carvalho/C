@@ -2,10 +2,10 @@
   Escola: ETE Ginasio Pernamvbucano
    Turma: Modulo 1 A*/
   
- Q.Faca um programa que leia o nome do usuário e a sua idade e 
+ /*Q.Faca um programa que leia o nome do usuário e a sua idade e 
 imprima quantos anos ele terá em 2020. A resposta deve ter o 
 formato deste exemplo: “Carlos, em 2020 voce estara com 45 
-anos”.
+anos”.*/
 
 //Ler Nome do usuario e dizer sua idade em 2020//
 #include <stdio.h>
