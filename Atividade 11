@@ -2,10 +2,11 @@
   Escola: ETE Ginasio Pernamvbucano
    Turma: Modulo 1 A*/
    
-/*Q.Faça um programa que leia o número total de prestações de 
-um consórcio, o total de prestações pagas e o valor atual da 
-prestação. O programa deve calcular e apresentar o saldo 
-devedor atual e a quantidade de prestações sem pagar.*/
+/*Q.Dada as seguintes entradas: quilometragem inicial, 
+quilometragem final, litros consumidos, preço do litro de 
+combustível. Faça um programa que imprima o seguinte 
+Relatório: distância percorrida, Valor total gasto e o consumo do 
+carro(quantos quilômetros percorre com 1 litro de combustível).*/
 
 
 #include <stdio.h>
