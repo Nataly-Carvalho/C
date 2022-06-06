@@ -1,3 +1,13 @@
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.Faça um programa que leia o número total de prestações de 
+um consórcio, o total de prestações pagas e o valor atual da 
+prestação. O programa deve calcular e apresentar o saldo 
+devedor atual e a quantidade de prestações sem pagar.*/
+
+
 #include <stdio.h>
 //quilometragem inicial,quilometragem fim, litros consumidos, preço do litro decombustível//
 int main(void)
