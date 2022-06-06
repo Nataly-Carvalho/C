@@ -1,4 +1,9 @@
-//Valores dos passos a seguir//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+
+//Valores dos passos a seguir
 #include <stdio.h>
 
 main() {
