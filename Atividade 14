@@ -1,4 +1,15 @@
-//Simular caixa eletronico//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.. Faça um programa para um caixa eletrônico, que lê o valor 
+que o cliente quer sacar e calcula o menor número possível de 
+notas de 100,00, 50, 20 e 10 reais em que o valor lido pode ser 
+decomposto. Escrever o valor do saque e a relação de notas 
+necessárias. Suponha que o sistema monetário não utiliza 
+centavos. Atenção: Só digite números múltiplos de 10.*/
+
+
 #include <stdio.h>
 
 int main(void) {
