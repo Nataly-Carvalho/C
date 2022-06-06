@@ -1,4 +1,12 @@
-//Aumentar 30% do salario//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.Uma empresa vai dar um aumento de salário ao seu 
+funcionário. Faça um programa para ler o salário do funcionário 
+e o percentual de reajuste. Calcular e escrever o valor do novo 
+salário.*/
+
 #include <stdio.h>
 #include <math.h>
 
