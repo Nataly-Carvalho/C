@@ -1,4 +1,12 @@
-//Criando Variáveis A e B//
+/*Nome: Nataly Carvalho da Silva
+Escola: ETE Ginasio Pernamvbucano
+Turma: Modulo 1 A*/
+
+Q.Faça um programa que leia dois números reais A e B e os 
+imprima na tela. O valor da variável A deve ser apresentado 
+com duas casa decimais e o valor da variável B com três casas 
+decimais.
+
 #include<stdio.h>
 float A, B;
 main()
