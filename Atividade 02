@@ -1,3 +1,14 @@
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+ Q.Faça um programa que leia o nome do usuário e escreva uma 
+frase de saudação, desejando um bom dia de trabalho para 
+o mesmo. A resposta deve ter o formato deste exemplo: “Ola 
+Joao, tenha um otimo dia de trabalho!”. Faca o programa soar 
+um sinal sonoro(beep) ao escrever esta frase
+
+
 #include <stdio.h>
 //Ler Nome de usuário e escrever saudação//
 main() 
