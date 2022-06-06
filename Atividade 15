@@ -1,4 +1,10 @@
-//Descobrir se a variavel A e B é divisivel//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.Faça um programa que lê 2 valores A e B (inteiros) e informa se 
+A é divisível por B ou não*/
+
 #include <stdio.h>
 
 int main(void) {
