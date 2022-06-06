@@ -1,3 +1,11 @@
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+  
+Q.Faça um programa que leia dois números inteiros A e B e 
+imprima o resultado da subtração de A por B. A resposta deve 
+ter o seguinte formato: “6 – 2 = 4”.
+
 //subtração de A e B//
 #include <stdio.h>
 
