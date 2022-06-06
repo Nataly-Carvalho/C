@@ -1,4 +1,10 @@
-//Contar o total de votos e dizer sua porcentagem//
+/*Nome: Nataly Carvalho da Silva
+  Escola: ETE Ginasio Pernamvbucano
+   Turma: Modulo 1 A*/
+   
+/*Q.Faça um programa para ler o número de votos brancos, nulos 
+e válidos de uma eleição. Calcular e escrever o percentual que 
+cada um representa em relação ao total de eleitores.*/
 #include <stdio.h>
 
  main() 
