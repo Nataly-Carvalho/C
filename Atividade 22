@@ -1,5 +1,5 @@
 /*Nome: Nataly Carvalho da Silva
-  Escola: ETE Ginasio Pernamvbucano
+  Escola: ETE Ginasio Pernambucano
    Turma: Modulo 1 A*/
    
 /*Q. Escrever um programa que lê a hora de início e hora de término 
@@ -39,7 +39,6 @@ valorMin = min2 + (60 - min1);
 printf("O jogo durou %d hora(s) e %d minuto(s)", valorHora, valorMin);
 
 }
-
 }
 
 else {
@@ -49,16 +48,12 @@ valorMin = min2 - min1;
 printf("O jogo durou %d hora(s) e %d minuto(s)", valorHora, valorMin);
 
 }
-
 else {
 valorHora = 12 + hora2 - 1;
 valorMin = min2 + (60 - min1);
 printf("O jogo durou %d hora(s) e %d minuto(s)", valorHora, valorMin);
-
 }
-
 }
-
 return 0;
 
 }
