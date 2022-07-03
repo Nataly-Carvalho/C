@@ -2,8 +2,7 @@
   Escola: ETE Ginasio Pernambucano
    Turma: Modulo 1 A*/
    
-/*Q.. Desenvolva uma função que recebe as três notas do aluno como */
-parâmetro e retorne a sua média.
+/*Q.. Desenvolva uma função que recebe as três notas do aluno como parâmetro e retorne a sua média.*/
 
 #include <stdio.h>
 #include <stdlib.h>
