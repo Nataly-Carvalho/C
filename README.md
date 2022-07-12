@@ -1,3 +1,3 @@
 # C
-Iniciando estudos em C
-Escola:ETE Ginásio Pernambucano 
+- Iniciando estudos em C
+- Escola:ETE Ginásio Pernambucano 
