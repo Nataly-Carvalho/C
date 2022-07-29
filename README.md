@@ -10,8 +10,7 @@
 - Professor orientador: Emmanuel Barretos
 
 ## O repositorio é voltados para a resolução da apostila 
-
-Programação I, II, III da professora Sônia Virginia Alves França
+### Programação I, II, III da professora Sônia Virginia Alves França
 
 ## No repositorio contém:
 - Operadores logicos
